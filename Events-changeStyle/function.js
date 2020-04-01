@@ -16,4 +16,9 @@ function openMe() {
 
     //Option 2: Change the class
     // x.className="open";
-}
+};
+
+function changeColor() {
+    x=document.querySelector('#demo');
+    x.style.border="2px solid black";
+};
