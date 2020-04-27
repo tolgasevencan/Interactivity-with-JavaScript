@@ -32,7 +32,7 @@ if (grades.length > 0) {
     document.write("Empty array");
 }
 
-*/
+
 
 var name = prompt("What is your name?");
 
@@ -46,3 +46,7 @@ if (name.length != 0) {
 } else {
     document.write("Feeling shy?");
 }
+
+*/
+
+document.getElementsByTagName('p')[1].innerHTML = "yazdim";
