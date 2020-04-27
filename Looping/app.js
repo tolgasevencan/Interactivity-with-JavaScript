@@ -14,7 +14,7 @@ if (x < 2) {
     console.log('Yeap!');
 }
 
-*/
+
 
 var grades = [2, 5, , , 9, 8, , 8];
 var sum = 0;
@@ -30,4 +30,19 @@ if (grades.length > 0) {
     document.write(sum / count);
 } else {
     document.write("Empty array");
+}
+
+*/
+
+var name = prompt("What is your name?");
+
+if (name.length != 0) {
+    if (name == "Tolga") {
+
+        document.write("What a beautiful name!");
+    } else {
+        document.write("Hello " + name);
+    }
+} else {
+    document.write("Feeling shy?");
 }
