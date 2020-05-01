@@ -10,6 +10,7 @@ class ViewController {
         this.submit.addEventListener('click', () => this.check());
     }
 
+
     check() {
         const firstMailValue = this.firstmail.value;
         const secondMailValue = this.secondmail.value;
