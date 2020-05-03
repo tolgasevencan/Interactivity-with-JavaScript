@@ -23,3 +23,5 @@ class ViewController {
     }
 
 }
+
+console.log(check());
